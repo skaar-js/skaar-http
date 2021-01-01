@@ -1,0 +1,35 @@
+{
+  "name": "@skaar/http",
+  "version": "0.1.0-alpha",
+  "description": "Skaar Http Client",
+  "scripts": {
+    "test": "jest tests",
+    "bundle-es5": "rollup -p node-resolve --format=cjs --file=es5/index.js -- bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skaar-js/skaar-http.git"
+  },
+  "dependencies": {
+    "@skaar/core": "^0.1.0-alpha"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "rollup": "^2.35.1",
+    "@rollup/plugin-node-resolve": "^11.0.1"
+  },
+  "keywords": [
+    "skaar",
+    "http",
+    "rest",
+    "axios",
+    "fetch",
+    "xhr"
+  ],
+  "author": "Kasra Shamsaei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skaar-js/skaar-http/issues"
+  },
+  "homepage": "https://github.com/skaar-js/skaar-http#readme"
+}
